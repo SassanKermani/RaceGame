@@ -1,0 +1,19 @@
+#one{
+	background-color: red;
+	padding: 5%;
+	width: 5vw;
+	margin: 2%; 
+
+	/*margin-left: 10%;*/
+
+}
+
+#two{
+	background-color: blue;
+	padding: 5%;
+	width: 5vw;
+	margin: 2%;
+	
+	/*margin-left: 10%;*/
+	
+}
