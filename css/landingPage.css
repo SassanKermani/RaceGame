@@ -1,0 +1,26 @@
+body{
+	background-color: black
+	
+}
+
+div{
+	color: white;
+	
+	/*margin-top: 30vh;*/
+	padding: 20%;
+
+	border: solid white 5px;
+	
+	height: 30vh;
+	width: 30vh;
+
+	border-radius: 50%;
+}
+
+a{	
+	background-color: white;
+	padding: 2%;
+	color: black;
+	text-decoration: none;
+	border: 1px white solid;
+}

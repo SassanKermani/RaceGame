@@ -4,8 +4,8 @@
 	width: 5vw;
 	margin: 2%; 
 
-	/*margin-left: 10%;*/
-
+	/*margin-left: 20%;
+*/
 }
 
 #two{
@@ -15,5 +15,20 @@
 	margin: 2%;
 	
 	/*margin-left: 10%;*/
+	
+}
+
+#finishLine{
+	
+	background-color: black;
+
+	position: absolute;
+
+	margin-left: 75%;
+
+	height:  50vh;
+	width: 1vh;
+
+	z-index: -1;
 	
 }
