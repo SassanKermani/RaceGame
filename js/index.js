@@ -3,21 +3,21 @@ console.log("hey")
 document.addEventListener('DOMContentLoaded', function() {
   	
   	//makeing my objects
-	var one = document.createElement("div");
-	var oneA = 4;
-	var two = document.createElement("div");
-	var twoL = 4;
+	var playerOneDiv = document.createElement("div");		//prevusly one
+	var thePaddingForPlayerOne = 4;							//preveusly oneA
+	var playerTwoDiv = document.createElement("div");		//preveusly two
+	var thePaddingForPlayerTwo = 4;							//preveusly twoL
 
-	one.setAttribute("id", "one");
-	two.setAttribute("id", "two");
+	playerOneDiv.setAttribute("id", "one");
+	playerTwoDiv.setAttribute("id", "two");
 
 	//sget divs on page
-	document.getElementById("inBody").appendChild(one);
-	document.getElementById("inBody").appendChild(two);
+	document.getElementById("inBody").appendChild(playerOneDiv);
+	document.getElementById("inBody").appendChild(playerTwoDiv);
 	
 	//giveing them text 
-	one.innerHTML = "a";
-	two.innerHTML = "l";
+	playerOneDiv.innerHTML = "playerOne";
+	playerTwoDiv.innerHTML = "playerTwo";
 
 
 	//listing for keypress
@@ -26,27 +26,27 @@ document.addEventListener('DOMContentLoaded', function() {
 		if (e.keyCode == 97){
 			console.log("you did the a thing");
 
-			let a = oneA.toString() + "%";
-			one.style.marginLeft = a;
+			let tempVarforPlayerOneInput = thePaddingForPlayerOne.toString() + "%";
+			playerOneDiv.style.marginLeft = tempVarforPlayerOneInput;
 
-			oneA = oneA + 1;
+			thePaddingForPlayerOne = thePaddingForPlayerOne + 1;
 
 			//logs because I needed the info to know wtf was hapaning
-			console.log( "oneA " + oneA);
-			console.log( "a " + a );
+			console.log( "thePaddingForPlayerOne " + thePaddingForPlayerOne);
+			console.log( "tempVarforPlayerOneInput " + tempVarforPlayerOneInput );
 
 		}
 		if(e.keyCode == 108){
 			console.log("you did the l thing");
 
-			let l = twoL.toString() + "%";
-			two.style.marginLeft = l;
+			let tempVarforPlayerTwoInput = thePaddingForPlayerTwo.toString() + "%";
+			playerTwoDiv.style.marginLeft = tempVarforPlayerTwoInput;
 
-			twoL = twoL + 1;
+			thePaddingForPlayerTwo = thePaddingForPlayerTwo + 1;
 
 			//logs because I needed the info to know wtf was hapaning
-			console.log( "twoL " + twoL);
-			console.log( "l " + l );
+			console.log( "thePaddingForPlayerTwo " + thePaddingForPlayerTwo);
+			console.log( "tempVarforPlayerTwoInput " + tempVarforPlayerTwoInput );
 		}
 
 		isTheGameOver();
@@ -55,21 +55,21 @@ document.addEventListener('DOMContentLoaded', function() {
 	/* a = 97 |||| l =108 */
 	
 
-	console.log(one);
-	console.log(two);
+	console.log(playerOneDiv);
+	console.log(playerTwoDiv);
 
 
 	function isTheGameOver(){
 		console.log( "you are running is isTheGameOver" );
 
-		if( oneA >= 75 ){
-			console.log( "oneA hit 75" );
-			document.getElementById("inBody").innerHTML = "A WINS!!!";
+		if( thePaddingForPlayerOne >= 75 ){
+			console.log( "thePaddingForPlayerOne hit 75" );
+			document.getElementById("inBody").innerHTML = "Player One WINS!!!";
 		}
 
-		if( twoL >= 75 ){
-			console.log( "twoL hit 75" );
-			document.getElementById("inBody").innerHTML = "L WINS!!!";
+		if( thePaddingForPlayerTwo >= 75 ){
+			console.log( "thePaddingForPlayerTwo hit 75" );
+			document.getElementById("inBody").innerHTML = "Player Two WINS!!!";
 		}
 
 	};

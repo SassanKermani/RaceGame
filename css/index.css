@@ -34,3 +34,27 @@
 	z-index: -1;
 	
 }
+
+#howToPlayPlayerOne{			/*this is just some stuff to help player one know how to play*/
+	display: inline-block;
+	background-color: red;
+	padding: 1%;
+	margin: 1%;
+	margin-top: 20px;
+}
+
+#howToPlayPlayerTwo{			/*this is just some stuff to help player two know how to play*/
+	display: inline-block;
+	background-color: blue;
+	padding: 1%;
+	margin: 1%;
+	margin-top: 20px;
+}
+
+.keyToclic{						/*just a visual tihng*/
+	margin-left: 4%;
+	border: solid gold 2px;
+	font-size: 5em;
+}
+
+
