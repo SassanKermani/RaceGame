@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	var thePaddingForPlayerOne = 4;							//preveusly oneA
 	var playerTwoDiv = document.createElement("div");		//preveusly two
 	var thePaddingForPlayerTwo = 4;							//preveusly twoL
-
+	
 	playerOneDiv.setAttribute("id", "one");
 	playerTwoDiv.setAttribute("id", "two");
 

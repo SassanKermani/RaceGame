@@ -41,6 +41,8 @@
 	padding: 1%;
 	margin: 1%;
 	margin-top: 20px;
+
+	float: none;
 }
 
 #howToPlayPlayerTwo{			/*this is just some stuff to help player two know how to play*/
@@ -49,6 +51,8 @@
 	padding: 1%;
 	margin: 1%;
 	margin-top: 20px;
+
+	float: none;
 }
 
 .keyToclic{						/*just a visual tihng*/
@@ -57,4 +61,23 @@
 	font-size: 5em;
 }
 
+#explonation{
+	clear: both;
+	display: block;
+}
 
+@media only screen and (min-width: 500px){
+	body{
+		background-color: skyblue;
+	}
+
+	#howToPlayPlayerOne{
+		display: inline-block;
+		float: left;
+	}
+
+	#howToPlayPlayerTwo{
+		display: inline-block;
+		float: left;
+	}
+}
