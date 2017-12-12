@@ -1,4 +1,6 @@
-#one{
+
+
+#one{								/*this styles player one*/
 	background-color: red;
 	padding: 5%;
 	width: 5vw;
@@ -8,7 +10,7 @@
 */
 }
 
-#two{
+#two{								/*this styles player two*/
 	background-color: blue;
 	padding: 5%;
 	width: 5vw;
@@ -18,7 +20,7 @@
 	
 }
 
-#finishLine{
+#finishLine{					/*this styles a finishline so the player knows how far to press*/
 	
 	background-color: black;
 

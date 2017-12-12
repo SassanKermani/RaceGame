@@ -1,8 +1,11 @@
+
+/*this just get the hole page black*/
 body{
 	background-color: black
 	
 }
 
+/*this is the cool circle thing*/
 div{
 	color: white;
 	
@@ -17,6 +20,8 @@ div{
 	border-radius: 50%;
 }
 
+
+/*This styles the link*/
 a{	
 	background-color: white;
 	padding: 2%;
