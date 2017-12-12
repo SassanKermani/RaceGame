@@ -61,12 +61,12 @@
 	font-size: 5em;
 }
 
-#explonation{
+#explonation{					/*this styles the thing telling you how to play the game*/
 	clear: both;
 	display: block;
 }
 
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 500px){		/*medea query tast of life stuff hear*/
 	body{
 		background-color: skyblue;
 	}
